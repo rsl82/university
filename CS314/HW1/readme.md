@@ -5,7 +5,7 @@ For this assignment, you will write three simple Haskell functions. For testing 
     heads :: [a] -> Maybe a
 
 heads is a safe version of head that never crashes. For an empty list, it returns Nothing. For a non-empty list starting with x, it returns Just x. (Do not use head in your definition.)
-
+```
     GHCI> heads []
     Nothing
     GHCI> heads [1,2,3]
@@ -13,12 +13,12 @@ heads is a safe version of head that never crashes. For an empty list, it return
     GHCI> heads "abcdefg"
     Just 'a'
 
--
+```
 
     final :: [a] -> Maybe a
 
 final is a safe version of last that never crashes. For an empty list, it returns Nothing. For a non-empty list whose last value is x, it returns Just x. (Do not use last in your definition.)
-
+```
     GHCI> final []
     Nothing
     GHCI> final [1,2,3]
@@ -26,7 +26,7 @@ final is a safe version of last that never crashes. For an empty list, it return
     GHCI> final "abcdefg"
     Just 'g'
  
--
+```
     data Tree a = Tip | Bin (Tree a) a (Tree a)
 
     sumTree :: Num a => Tree a -> a
