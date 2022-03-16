@@ -13,29 +13,29 @@ heads is a safe version of head that never crashes. For an empty list, it return
     GHCI> heads "abcdefg"
     Just 'a'
 
- 
+
 
     final :: [a] -> Maybe a
 
 final is a safe version of last that never crashes. For an empty list, it returns Nothing. For a non-empty list whose last value is x, it returns Just x. (Do not use last in your definition.)
 
-GHCI> final []
-Nothing
-GHCI> final [1,2,3]
-Just 3
-GHCI> final "abcdefg"
-Just 'g'
+    GHCI> final []
+    Nothing
+    GHCI> final [1,2,3]
+    Just 3
+    GHCI> final "abcdefg"
+    Just 'g'
  
+-
+    data Tree a = Tip | Bin (Tree a) a (Tree a)
 
-data Tree a = Tip | Bin (Tree a) a (Tree a)
-
-sumTree :: Num a => Tree a -> a
+    sumTree :: Num a => Tree a -> a
 
 sumTree returns the sum of all elements in a tree. (Note that the empty tree will sum to zero.)
 
-GHCI> sumTree Tip
-0
-GHCI> sumTree (Bin Tip 5 Tip)
-5
-GHCI> sumTree (Bin (Bin Tip 1 Tip) 2 (Bin Tip 3 Tip))
-6
+    GHCI> sumTree Tip
+    0
+    GHCI> sumTree (Bin Tip 5 Tip)
+    5
+    GHCI> sumTree (Bin (Bin Tip 1 Tip) 2 (Bin Tip 3 Tip))
+    6
