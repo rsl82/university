@@ -13,7 +13,7 @@ heads is a safe version of head that never crashes. For an empty list, it return
     GHCI> heads "abcdefg"
     Just 'a'
 
-
+-
 
     final :: [a] -> Maybe a
 
