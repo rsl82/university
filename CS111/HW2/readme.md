@@ -6,7 +6,6 @@ Ask for 2 numbers (integers) from the user. Print out the result of multiplying 
 
 
 
-############################################################
 
 # PARTY
 
@@ -25,9 +24,6 @@ Compute the total cost of the pizza and soda you will need to buy. Do not buy mo
 
 For this problem only, you may assume that the user will only enter positive numbers (you do not need to check for this).
 
-
-
-############################################################
 
 # PAYFEE
 
