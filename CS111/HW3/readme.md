@@ -1,4 +1,4 @@
-1. SmallestLargest
+# SmallestLargest
 
 Write a program called SmallestLargest.java which outputs the biggest and smallest numbers in a list of numbers entered by the user.
 Ask the user for a terminating value which should be entered again when they are done inputting the list of numbers.
@@ -8,9 +8,9 @@ YOU MUST USE THE IO MODULE FOR INPUT/OUTPUT.
 Report bad input via IO.reportBadInput() and exit on error.
 
 
-#######################################################################
 
-2. TwoLargest
+
+# TwoLargest
 
 Write your code in the file TwoLargest.java.
 
@@ -23,9 +23,8 @@ A sequence of real numbers. Keep asking for numbers until the terminating value 
 Compute and output the largest and second-largest real number, in that order. It is possible for the largest and second-largest numbers to be the same (if the sequence contains duplicate numbers).
 
 
-#######################################################################
 
-3. Lucky Sevens
+# Lucky Sevens
 
 Write your code in the file LuckySevens.java. Use the IO module for all inputs and outputs.
 
@@ -41,9 +40,8 @@ Hint2: Nested loops are helpful
 
 On error return without outputting any answer to the IO.
 
-#######################################################################
 
-4. Lucky Nines
+# Lucky Nines
 
 Write your code in the file LuckyNines.java. Use the IO module for all inputs and outputs.
 
