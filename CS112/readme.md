@@ -1,1 +1,1 @@
-** CS 112 Data Structures **
+**CS 112 Data Structures**
