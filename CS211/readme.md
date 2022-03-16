@@ -1,1 +1,1 @@
-CS 211 Computer Architecture
+**CS 211 Computer Architecture**
