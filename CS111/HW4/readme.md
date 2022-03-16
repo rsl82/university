@@ -1,4 +1,4 @@
-1. Pig Latin
+# Pig Latin
 
 Write your code in the file PigLatin.java. Your code should go into a method with the following signature. You may write your own main method to test your code. The graders will ignore your main method:
 
@@ -13,9 +13,9 @@ If the English word begins with a vowel (A, E, I, O, or U), simply add "vai" to 
 Write your method so that it returns the pig latin translated original string. You may assume that the input does not contain digits, punctuation, or spaces. The input may be in any combination of uppercase or lowercase. The case of your output does not matter.
 
 
-#######################################################################
 
-2. Word Count
+
+# Word Count
 
 Write your code in the file WordCount.java. Your code should go into a method with the following signature. You may write your own main method to test your code. The graders will ignore your main method:
 
@@ -29,9 +29,9 @@ Words will be separated by one or more spaces. Non-letter characters (spaces, pu
 Hint: write a method that counts the number of letters (and ignores punctuation) in a string that holds a single word without spaces. In your countWords method, break the input string up into words and send each one to your method.
 
 
-#######################################################################
 
-3. Compress
+
+# Compress
 
 
 Write your code in the file Compress.java. Your code should go into a method with the following signature. You may write your own main method to test your code. The graders will ignore your main method:
