@@ -6,8 +6,8 @@ For this assignment, you will write three simple Haskell functions. For testing 
 
 heads is a safe version of head that never crashes. For an empty list, it returns Nothing. For a non-empty list starting with x, it returns Just x. (Do not use head in your definition.)
 
-GHCI> heads []
-Nothing
+ GHCI> heads []
+ Nothing
 GHCI> heads [1,2,3]
 Just 1
 GHCI> heads "abcdefg"
