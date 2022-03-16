@@ -1,4 +1,4 @@
-#MULTIPLY
+# MULTIPLY
 
 Write your code in a file called Multiply.java. Use the IO module to read inputs and output answers.
 
@@ -8,7 +8,7 @@ Ask for 2 numbers (integers) from the user. Print out the result of multiplying 
 
 ############################################################
 
-#PARTY
+# PARTY
 
 Write your code in the file Party.java. Use the IO module to read inputs and output answers.Suppose that you are responsible for buying pizza and soda for your employer's annual company party. You must buy entire pizza pies and cases of soda (boxes of soda cans). You cannot buy individual slices of pizza or cans of soda, nor can you buy fractional numbers of pizza pies or soda cases.
 
@@ -29,7 +29,7 @@ For this problem only, you may assume that the user will only enter positive num
 
 ############################################################
 
-#PAYFEE
+# PAYFEE
 
 Write your code in the file PayFee.java. Use the IO module to read inputs and output answers.
 
