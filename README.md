@@ -6,6 +6,8 @@ CS111 : Intro to Computer Science
 
 CS112 : Data Structures
 
+CS142 : Data 101: Data Literacy
+
 CS211 : Computer Architecture
 
 CS214 : Systems Programming
