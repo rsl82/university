@@ -11,3 +11,5 @@ CS211 : Computer Architecture
 CS214 : Systems Programming
 
 CS314 : Principles of Programming Language
+
+CS344 : Design and Analysis of Computer Algorithms
