@@ -14,6 +14,8 @@ CS214 : Systems Programming
 
 CS314 : Principles of Programming Language
 
+CS336 : Principles of Information and Data Management
+
 CS344 : Design and Analysis of Computer Algorithms
 
 CS416+518 : Operating Systems Design
