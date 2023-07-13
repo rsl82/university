@@ -10,6 +10,8 @@ CS142 : Data 101: Data Literacy
 
 CS211 : Computer Architecture
 
+CS213 : Software Methodology
+
 CS214 : Systems Programming
 
 CS314 : Principles of Programming Language
