@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">RU PIZZA </string>
+    <string name="main_chicago" > Chicago Style Pizza Order </string>
+    <string name="main_ny" > NY Style Pizza Order </string>
+    <string name="main_store_order" > Store Orders </string>
+    <string name="main_current_order" > Current Order </string>
+    <string name="finish" > Finish </string>
+    <string name="flavor" > flavor </string>
+    <string name="size" > size </string>
+    <string name="crust" > crust </string>
+    <string name="price" > price $</string>
+    <string name="add" > &gt;&gt; </string>
+    <string name="remove" > &lt;&lt; </string>
+    <string name="placeOrder" > Place Order </string>
+    <string name="leftToppings" > Left Toppings </string>
+    <string name="addedToppings" > Added Toppings </string>
+    <string name="move" > Move </string>
+    <string name="orderNumber" > Order # </string>
+    <string name="subTotal" > SubTotal $ </string>
+    <string name="salesTax" > Sales Tax $ </string>
+    <string name="orderTotal" > Total $ </string>
+    <string name="removePizza" > Remove Pizza</string>
+    <string name="cancelOrder" > Cancel Order</string>
+    <string name="storeOrderTotal" > Order Total (tax included) $ </string>
+
+</resources>
