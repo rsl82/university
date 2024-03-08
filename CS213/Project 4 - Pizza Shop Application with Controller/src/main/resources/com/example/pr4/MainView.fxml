@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="480.0" prefWidth="720.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.pr4.MainViewController">
+   <children>
+      <Text layoutX="273.0" layoutY="53.0" scaleX="5.0" scaleY="5.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RU PIZZA" wrappingWidth="54.0" />
+      <Button contentDisplay="TOP" layoutX="97.0" layoutY="84.0" mnemonicParsing="false" onAction="#openChicagoPizza" prefHeight="146.0" prefWidth="139.0" text="Chicago Style Pizza">
+         <graphic>
+            <ImageView fitHeight="119.0" fitWidth="123.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@chicago_pizza_main.jpg" />
+               </image></ImageView>
+         </graphic>
+      </Button>
+      <Button contentDisplay="TOP" layoutX="434.0" layoutY="84.0" mnemonicParsing="false" onAction="#openNYPizza" prefHeight="131.0" prefWidth="135.0" text="New York Style Pizza">
+         <graphic>
+            <ImageView fitHeight="119.0" fitWidth="123.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ny_pizza_main.jpg" />
+               </image></ImageView>
+         </graphic>
+      </Button>
+      <Button contentDisplay="TOP" layoutX="434.0" layoutY="283.0" mnemonicParsing="false" onAction="#openCurrentOrder" prefHeight="146.0" prefWidth="135.0" text="Current Order">
+         <graphic>
+            <ImageView fitHeight="119.0" fitWidth="123.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@current_order.jpg" />
+               </image></ImageView>
+         </graphic>
+      </Button>
+      <Button contentDisplay="TOP" layoutX="97.0" layoutY="283.0" mnemonicParsing="false" onAction="#openStoreOrder" prefHeight="131.0" prefWidth="135.0" text="Store Order">
+         <graphic>
+            <ImageView fitHeight="119.0" fitWidth="123.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@store_order.png" />
+               </image></ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
